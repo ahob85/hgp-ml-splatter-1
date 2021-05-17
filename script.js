@@ -1,32 +1,7 @@
 // Author:
 
-/*******************************************************************************
-                          Global UI Variables
-
-  canvasDiv, textDiv, buttonDiv, sliderDiv
-  In the project's HTML, the divs that will contain various elements that may
-  be created in setup(). Useful for styling (e.g., keeping them all centered).
-
-  canvas
-  The p5.js canvas. This is where all the magic happens!
-
-  textP, spans
-  This is where you will print any kind of text (e.g., the label of an image).
-
-  buttons, sliders
-  If included, these are for user interaction (e.g., training a model, inputting
-  data).
-*******************************************************************************/
-
-// let canvasDiv;
-
-/******************************************************************************
-                                  setup()
-
-  This is a built-in p5.js function that is automatically called when the
-  program starts, just before draw(). This is used for initializing global
-  variables, building the UI, and loading images, video, data, and models.
-*******************************************************************************/
+// Global UI Variables
+//let canvasDiv;
 
 function setup() {
   // create canvas UI
@@ -37,24 +12,9 @@ function setup() {
 
 }
 
-/******************************************************************************
-                                  draw()
-
-  This is a built-in p5.js function that is automatically called in a repeated
-  loop, just after setup(). This is used for handling animations, or running
-  anything over and over again throughout a program.
-*******************************************************************************/
-
 function draw() {
 
 }
-
-/******************************************************************************
-                               drawEllipse()
-
-  Draw an ellipse to the canvas wherever the user has clicked. Choose any color
-  and size you like.
-*******************************************************************************/
 
 function drawEllipse() {
 
